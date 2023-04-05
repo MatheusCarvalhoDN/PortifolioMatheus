@@ -1,4 +1,5 @@
 function enviarMensagem() {
+  event.preventDefault();
     // Obtém os valores dos campos do formulário
     const nome = document.getElementById('name').value;
     const email = document.getElementById('email').value;

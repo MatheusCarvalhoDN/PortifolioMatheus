@@ -9,7 +9,6 @@ function enviarMensagem() {
     // Verifica se todos os campos foram preenchidos
     if (nome !== '' && email !== '' && assunto !== '' && mensagem !== '') {
       // Exibe a mensagem de sucesso
-      alert('Sua mensagem foi enviada com sucesso. Obrigado!');
       window.location.href = "./contato_real.html";
     } else {
       // Exibe a mensagem de erro
